@@ -1,0 +1,192 @@
+body {
+    background-color: #000000; /* 배경색을 원하는 색상으로 지정 */
+}
+
+/* header 스타일 */
+header {
+    color: white; /* 텍스트 색상을 지정하세요 */
+    padding: 20px; /* 위, 아래, 왼쪽, 오른쪽 여백을 조절하세요 */
+    text-align: center; /* 텍스트를 가운데 정렬하세요 */
+    display: flex; /* 헤더 내부 요소를 가로로 배치하기 위해 Flex 레이아웃 사용 */
+    justify-content: space-between; /* 좌우 간격을 최대화하여 좌우 배치 */
+    align-items: center; /* 수직 중앙 정렬 */
+}
+
+/* .left 내부 요소를 가로로 배치하기 위한 스타일 */
+.left {
+    display: flex; /* Flexbox 레이아웃 사용 */
+    align-items: center; /* 요소를 수직 중앙 정렬 */
+}
+
+/* 로고 이미지 스타일 */
+.logo {
+    width: 100px; /* 이미지의 너비를 조절합니다. 원하는 크기로 설정하세요. */
+    height: auto; /* 높이를 자동으로 조절하여 이미지 비율을 유지합니다. */
+}
+
+
+/* 네비게이션 스타일 */
+nav {
+    text-align: right; /* 텍스트를 우측 정렬합니다. */
+}
+
+nav ul {
+    list-style: none; /* 목록 마크를 제거합니다. */
+    padding: 0; /* 목록의 패딩을 0으로 설정 */
+    display: flex; /* 목록을 가로로 배치하기 위해 Flex 레이아웃 사용 */
+}
+
+nav ul li {
+    display: inline; /* 리스트 항목을 가로로 나란히 배치합니다. */
+    margin-left: 20px; /* 리스트 항목 간격을 조절합니다. */
+    margin-right: 20px; /* 각 항목 사이의 간격을 설정 */
+}
+
+nav ul li a {
+    text-decoration: none; /* 링크에 밑줄을 제거합니다. */
+    color: white; /* 링크 텍스트 색상을 지정하세요. */
+}
+
+/* section 스타일 */
+section {
+    padding: 40px;
+    padding-top: 13%;
+    padding-bottom: 13%;
+    text-align: center; /* 텍스트 가운데 정렬 */
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 3ch;
+    padding-top: 0%;
+}
+
+
+/*
+#btn{
+    position: absolute;
+    top: 700;
+    left: 36%;
+    width: 300px;
+    height: 50px;
+}
+#start_btn {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    display: block;
+    font-size: 1.3em;
+    width: 100px;
+    height: 100px;
+    font-weight: light;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    line-height: 100px;
+    letter-spacing: -1px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    background: #5a99d4;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 rgba(#5a99d4, .5);
+    transition: width 0.9s, height 0.9s ;
+}
+#start_btn:hover{
+    width: 105px;
+    height: 105px;
+}
+*/
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 70px 0;
+    position: absolute;
+}
+
+.GameContainer{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.GameDisplay{
+    /*align-content: center;*/
+    width: 600px;
+    height: 600px;
+    background-color: #94ff94;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+/*----------------------------------------*/
+#btn{
+    position: absolute;
+    top: 700;
+    left: calc(50% - 300px);
+    left: -10%;
+    width: 300px;
+    height: 50px;
+}
+#start_btn {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: 130px;
+    display: block;
+    font-size: 1.3em;
+    width: 100px;
+    height: 100px;
+    font-weight: light;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    line-height: 100px;
+    letter-spacing: -1px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    background: #5a99d4;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 rgba(#5a99d4, .5);
+    transition: width 0.9s, height 0.9s ;
+    margin: auto;
+}
+#start_btn:hover{
+    width: 105px;
+    height: 105px;
+}
+
+
+/* section 스타일 */
+section {
+    padding-top: 0%;
+    padding-bottom: 13%;
+    text-align: center; /* 텍스트 가운데 정렬 */
+}
+
+/* 버튼 스타일 */
+.horizontal-button {
+    background-color: transparent; /* 배경색을 투명하게 설정 */
+    margin: 50px; /* 버튼 사이의 간격 */
+    width: 300px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px 20px; /* 버튼 내부 여백 조절 (위아래 10px, 좌우 20px) */
+    color: white;
+    font-size: 20px;
+    cursor: pointer; /* 마우스 커서 모양을 포인터로 설정 (클릭 가능한 요소로 표시) */
+    transition: transform 0.2s ease, background-color 0.2s ease; /* 부드러운 확대와 배경색 변경에 사용할 속성 및 지속 시간 및 타이밍 함수 설정 */
+}
+
+/* 버튼 호버 효과 (마우스를 올렸을 때) */
+.horizontal-button:hover {
+    transform: scale(1.1); /*1.1배 혹대*/
+    background-color: gray; /* 마우스 호버 시 배경색을 회색으로 변경 */
+    color: white; /* 마우스 호버 시 텍스트 색상을 흰색으로 변경 */
+}

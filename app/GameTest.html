@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HelloWorld Games</title>
+    <link rel="stylesheet" href="/app/GameTest.css">
+    <link rel="icon" href="/public/Logo.png"/>
+    <link rel="apple-touch-icon" href="/public/Logo.png"/>
+</head>
+<body>
+    <div>
+        <header>
+            <div class="left">
+                <img src="/public/Logo.png" alt="HelloWorld Games 로고" class="logo">
+                <h1>HelloWorld Games</h1>
+            </div>
+            <div class="right">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Games</a></li>
+                        <li><a href="#">Services</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <div class="GameContainer">
+        <div class="GameDisplay">
+            <canvas id="score_bar" width="300" height="70" style="position: absolute; left:30%;top: 0;"></canvas>
+            <canvas id="background" width="300" height="600" style="position: absolute; top:70; left: 30%;" ></canvas>
+            <canvas id="piano" width="300" height="600" style="position: absolute; top:70; left: 30%;"></canvas>
+            <audio  id="music" src="MUSIC.mp3" loop ></audio>
+        <div id="btn">
+            <span id="start_btn">START</span>
+        </div>  
+        <script src="/JS/PianoTile.js"></script>
+        </div>
+    </div>
+    <div>
+        <p>
+            이런 게임은 어떤가요?
+        </p>
+        <section>
+            <button class="horizontal-button">게임이 마음에 들어요</button>
+            <button class="horizontal-button">별로에요</button>
+        </section>
+    </div>
+
+    </div>
+
+    <div>
+        <footer>
+            <p> &copy; 2023. HelloWorld 우리의 이야기.</p>
+        </footer>
+    </div>
+    
+</body>
+</html>
