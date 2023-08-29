@@ -7,6 +7,20 @@
     <link rel="stylesheet" href="/app/style.css">
     <link rel="icon" href="/public/Logo.png"/>
     <link rel="apple-touch-icon" href="/public/Logo.png"/>
+    <style>
+        /* section 스타일 */
+        section {
+            padding: 40px;
+            padding-top: 14%;
+            padding-bottom: 20%;
+            text-align: center; 
+        }
+
+        #survey-section {
+            font-size: 24px; 
+            color: white; 
+        }
+    </style>
 </head>
 <body>
     <div>
@@ -29,13 +43,27 @@
     
     <div>
         <section>
-            <button class="horizontal-button">게임을 하지 않아요</button>
-            <button class="horizontal-button">게임을 자주 해요</button>
+            <button class="horizontal-button" id="not-playing-button">게임을 하지 않아요</button>
+            <button class="horizontal-button" id="playing-button">게임을 자주 해요</button>
         </section>    
     </div>
     
     <footer>
-        <p> &copy; 2023. HelloWorld 우리의 이야기.</p>
+        <p>&copy; 2023 HelloWorld 우리의 이야기</p>
     </footer>
+
+    <script>
+        // JavaScript 코드를 여기에 추가
+        const notPlayingButton = document.getElementById('not-playing-button');
+        const playingButton = document.getElementById('playing-button');
+
+        notPlayingButton.addEventListener('click', () => {
+            window.location.href = 'mbti.html';
+        });
+
+        playingButton.addEventListener('click', () => {
+            window.location.href = 'playing.html';
+        });
+    </script>
 </body>
 </html>
