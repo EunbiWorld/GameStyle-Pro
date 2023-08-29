@@ -1,0 +1,55 @@
+/* Reset CSS */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* 헤더 스타일링 */
+header {
+    background-color: #333; /* 배경색을 원하는 색상으로 지정 */
+    color: #fff; /* 텍스트 색상을 흰색으로 지정 */
+    padding: 10px 0; /* 위아래로 10px, 좌우로 0px의 패딩 설정 */
+    display: flex; /* 헤더 내부 요소를 가로로 배치하기 위해 Flex 레이아웃 사용 */
+    justify-content: space-between; /* 좌우 간격을 최대화하여 좌우 배치 */
+    align-items: center; /* 수직 중앙 정렬 */
+}
+
+/* 제목 스타일링 */
+h1 {
+    margin: 0; /* 제목의 위 아래 마진을 0으로 설정 */
+}
+
+/* 네비게이션 메뉴 스타일링 */
+nav ul {
+    list-style: none; /* 목록 스타일 제거 */
+    padding: 0; /* 목록의 패딩을 0으로 설정 */
+    display: flex; /* 목록을 가로로 배치하기 위해 Flex 레이아웃 사용 */
+}
+
+nav ul li {
+    margin-right: 20px; /* 각 항목 사이의 간격을 설정 */
+}
+
+/* 링크 스타일링 */
+nav ul li a {
+    text-decoration: none; /* 링크 밑줄 제거 */
+    color: #fff; /* 링크 텍스트 색상을 흰색으로 설정 */
+}
