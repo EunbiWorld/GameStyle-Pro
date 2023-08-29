@@ -49,10 +49,12 @@ section {
     color: white;
     font-size: 20px;
     cursor: pointer; /* 마우스 커서 모양을 포인터로 설정 (클릭 가능한 요소로 표시) */
+    transition: transform 0.2s ease, background-color 0.2s ease; /* 부드러운 확대와 배경색 변경에 사용할 속성 및 지속 시간 및 타이밍 함수 설정 */
 }
 
 /* 버튼 호버 효과 (마우스를 올렸을 때) */
 .horizontal-button:hover {
+    transform: scale(1.1); /*1.1배 혹대*/
     background-color: gray; /* 마우스 호버 시 배경색을 회색으로 변경 */
     color: white; /* 마우스 호버 시 텍스트 색상을 흰색으로 변경 */
 }
