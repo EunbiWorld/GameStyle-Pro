@@ -73,26 +73,8 @@
       <h3 id="subTitle" class="subtitle">설명</h3>
       <img id="img" class="rounded-circle mt-5" src="test.jpg" alt="item" />
       <!-- <h2 id="item" class="text-center mt-5">캐릭터 이름</h2> -->
-      <h4 class="resulttitle">업무 성향</h4>
-      <h5 class="resultcontent" id="workexplain" name="업무 성향"></h5>
-      <h6 class="resulttitle">성격 혹은 대인관계</h6>
-      <h7 class="resultcontent" id="perexplain" name="성격 혹은 대인관계"> </h7>
-
-      <!-- <button
-        style="margin-bottom: 40px"
-        class="btn btn-primary mt-5"
-        onclick="reset();"
-      >
-        다시 테스트 하기!
-      </button> -->
-
-      <div class="back">
-        <div class="button_base b03_skewed_slide_in">
-          <div>다시 테스트 하기!</div>
-          <div></div>
-          <div onclick="reset();">다시 테스트 하기!</div>
-        </div>
-      </div>
+      <h4 class="resulttitle">게임 성향</h4>
+      <h5 class="resultcontent" id="workexplain" name="게임 성향"></h5>    
 
       <!-- Go to www.addthis.com/dashboard to customize your tools -->
       <div class="share addthis_inline_share_toolbox"></div>
@@ -153,11 +135,12 @@
           up: "리뷰를 꼼꼼히 살펴보며, 게임에 대한 정보들을 찾아본다",
           down: "리뷰를 신경쓰지 않으며, 재미있어 보이니 플레이 해본다",
         },
+       
         5: {
-          title: "PC방에 갈때 나는~~",
+          title: "<a href='/app/brickgame.html' style = 'text-decoration: none' 'color: white'>이 게임이 어떠신가요??(클릭해주세요)",
           type: "EI",
-          up: "혼자 게임해서 뭐해~ 친구랑 같이 가야지!!",
-          down: "게임은 혼자 하는거지.",
+          up: "재미 없다",
+          down: "괜찮다",
         },
         6: {
           title:
@@ -243,14 +226,10 @@
         },
         INTJ: {
           item: "독립적인 전략가",
-          subTitle: "포식자 거미",
+          subTitle: "추천 게임 : 시뮬레이션, 전략 게임",
           workexplain:
-            "논리적이며 창의적으로 탐구하는 것을 좋아하기 때문에 어떤 일이든 잘하는 사람이다. 문제 해결에 대한 욕구가 강하고 새로운 프로젝트를 진행하는 데 열정적이다. 무언가에 지나치게 파고드는 완벽주의 성향이 있으므로 일을 시작할 때 완벽하게 설계를 한다. 목표를 달성하기 위해 집중하기 때문에 한 가지 업무에 몰두하면 온종일 그 업무에 대해 고민하고 실현화될 때까지 전념한다. 업무 성향이 지적이기 때문에 헌신적으로 일한다.",
-          perexplain:
-            "지식에 대한 욕심이 많으므로 평소 날카로운 지적 행위 혹은 지식 축적활동으로 자존감을 얻는다. 내성적이고 진지한 편이다. 자기에 대한 확신이 강하기 때문에 관심 있는 분야를 깊게 통달할 수 있다는 자신감을 가지고 있고 이를 해낸다. 어떠한 결정을 할 때 신중한 편이며 결론을 내릴 땐 느낌과 직감이 아닌 분석과 타당한 논리를 바탕으로 결정한다. 감수성이 대체로 낮은 편 임으로 상대방이 감성적인 문제를 상의하러 오는 상황에는 어떻게 대해야 할지 몰라 당황해하는 경우가 있다.",
-          goodRel: "ENFP",
-          badRel: "ISFJ",
-          img: "INTJ.png",
+            "당신의 성향은 시뮬레이션과 게임 디자인에서 빛을 발합니다. 솔로 플레이는 보람이 있지만 여러 플레이어와 상호작용하는 것은 성가신 일이 될 수 있습니다. 의미 있는 전략을 탐구하는 것을 즐깁니다.",
+          img: "/public/MIC.png",
         },
         ISTP: {
           item: "만능 재주꾼(ISTP)",
@@ -261,7 +240,7 @@
             "상황 적응력이 뛰어나며 상대방 기분에 장단 맞추어 주는 것을 싫어한다. 마음이 없는 소리는 하지 않는 편. 생각은 적극적인데 행동은 소극적으로 하는 편이다. 관심 분야가 아니면 일 뿐만 아니라 쳐다보지도 않는다. 즉 하고 싶은 것만 하고 하기 싫은 것은 죽어도 안 하는 편이다. 객관적인 원리를 좋아하기 때문에 수학, 과학 과목을 좋아하고 손재주가 좋다 보니 퍼즐 맞추기를 잘한다.",
           goodRel: "ESTJ",
           badRel: "INFP",
-          img: "ISTP.png",
+          img: "/public/MIC.png",
         },
         ISFP: {
           item: "호기심 많은 예술가(ISFP)",
